@@ -5,4 +5,5 @@ urlpatterns = [
     
     path('', views.listar_pub, name='listar_pub'),
     path('pub/<int:pk>/', views.pub_detail, name='pub_detail'),
+    path('pub/new', views.nueva_pub, name="nueva_pub"),
 ]
